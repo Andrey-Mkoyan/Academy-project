@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main_section {
+    position: relative;
+    background: url('../assets/images/bg-image.png') center center/cover no-repeat;
+    width: 99vw;
+    height: 788px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://phonoteka.org/uploads/posts/2022-01/1643147648_1-phonoteka-org-p-chernii-fon-dlya-saita-1.jpg);
+}
+
+.menu {
+    width: 583px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 161px;
+}
+
+.menu>a {
+    color: white;
+    text-decoration: none;
+}
+.menu>a:hover {
+    border-bottom: 1px solid white;
+}
+.title {
+    margin-bottom: 20px;
+}
+
+.title>h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.text {
+    width: 462px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color:#FFFFFF;
+    margin-bottom: 30px;
+}
+.main_section>.btn {
+    position: absolute;
+    top: 500px;
+}
+.btn>button {
+    width: 184px;
+    height: 46px;
+    background: #00AFDB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 183px;
+}
+.icons_section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.second_section {
+    position: relative;
+    width: 99vw;
+    height: 842px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://oir.mobi/uploads/posts/2021-01/1611944840_1-p-zadnii-fon-oranzhevii-1.jpg)
+
+}
+
+.second_section>.left {
+    width: 407px;
+    height: 233px;
+    margin-right: 248px;
+}
+
+.second_section>.left>h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+    margin-bottom: 20px;
+}
+
+
+.second_section>.left>p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+    margin-bottom: 30px;
+
+}
+
+
+.regestracion {
+    transform: translateX(-45vw) translateY(-21vh);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    
+}
+
+.regestracion>table>label {
+    color: white;
+}
+
+input{
+    font-size: 20px;
+    height:30px;
+    width:500px;
+}
