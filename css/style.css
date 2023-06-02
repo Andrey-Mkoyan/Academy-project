@@ -1,0 +1,97 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.main__page {
+    height: 100vh;
+    background: url('../assets/backgrounds/User-Registration-1.png')center center/cover no-repeat ;
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+.registration__form {
+    width: 350px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.inputs  {
+    width: 290px;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.5);
+   
+    border: none;
+    margin: 5px 0;
+}
+
+.btn {
+    margin-left: 125px;
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.radio {
+    margin-bottom: 5px;
+}
+
+/* .main__container {
+    height: 60px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.btn {
+    height: 60px;
+    width: 150px;
+    cursor: pointer;
+    border: 4px solid black;
+    background-color:rgba(0, 0, 0, 0.1);
+}
+ */
